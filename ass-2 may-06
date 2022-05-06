@@ -1,0 +1,13 @@
+#Employee Dictionary
+E={1:['aaa','Programmer','10-AUG-2003',30000],2:['bbb','Developer','15-AUG-2005',50000],3:['ccc','Designer','20-SEP-2006',55000],4:['ddd','Coder','25-SEP-2009',60000]}
+x=int(input('enter the empno:'))
+print('Name of the Employee:',E[x][0])
+print('Empdesig:',E[x][1])
+print('DOJ:',E[x][2])
+print('Salary:',E[x][3])
+output:
+enter the empno:4
+Name of the Employee: ddd
+Empdesig: Coder
+DOJ: 25-SEP-2009
+Salary: 60000
